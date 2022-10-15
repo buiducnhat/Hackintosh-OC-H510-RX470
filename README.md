@@ -24,17 +24,15 @@
 - [x] USB 2.0 & 3.0
 - [x] Shutdown & Restart
 - [x] UI for OpenCore
+- [x] iServices (iMessage, Facetime, iCloud)
 
 ## What's not working
 
 - [ ] Intel UHD Graphics 630 (has problem with H510)
 - [ ] WiFi & Bluetooth - I don't have any WiFi card
-- [ ] HDMI Audio (Not tested)
-- [ ] iMessage & Facetime
 - [ ] Handoff (Not tested)
 - [ ] Continuity (Not tested)
-- [ ] AirDrop
-- [ ] Sidecar (Not tested)
+- [ ] AirDrop (not have Wifi/Bluetooth for testing)
 - [ ] Apple Watch Unlock (Not tested)
 - [ ] Sleep & Wake (The fan is still running)
 
@@ -60,8 +58,8 @@
 
 ## OpenCore Settings
 
-- [x] Add SMBIOS: iMac20,1
-- [x] Add MLB, SystemSerialNumber, SystemUUID
+- Add SMBIOS: iMac20,1
+- Add MLB, SystemSerialNumber, SystemUUID
 
 ## Note
 
