@@ -66,6 +66,7 @@
 
 - `OpenCore` version: `0.8.5`
 - This shared EFI was tested with `MacOS Monterey 12.6`, made with Release version of `OpenCore 0.8.5`
+
 ## Credits
 
 - [Acidanthera](https://github.com/acidanthera)
