@@ -25,16 +25,16 @@
 - [x] Shutdown & Restart
 - [x] UI for OpenCore
 - [x] iServices (iMessage, Facetime, iCloud)
+- [x] Sleep & Wake (The fans are still running)
 
 ## What's not working
 
-- [ ] Intel UHD Graphics 630 (has problem with H510)
-- [ ] WiFi & Bluetooth - I don't have any WiFi card
-- [ ] Handoff (Not tested)
-- [ ] Continuity (Not tested)
+- [ ] Intel UHD Graphics 630 (has problem with H510 chipset)
+- [ ] WiFi & Bluetooth - (not have any WiFi/Bluetooth card)
+- [ ] Handoff (not tested)
+- [ ] Continuity (not tested)
 - [ ] AirDrop (not have Wifi/Bluetooth for testing)
-- [ ] Apple Watch Unlock (Not tested)
-- [ ] Sleep & Wake (The fan is still running)
+- [ ] Apple Watch Unlock (not tested)
 
 ## BIOS Settings
 
@@ -58,13 +58,14 @@
 
 ## OpenCore Settings
 
-- Add SMBIOS: iMac20,1
-- Add MLB, SystemSerialNumber, SystemUUID
+- Add `SMBIOS: iMac20,1`
+- Add `MLB`, `SystemSerialNumber`, `SystemUUID`
+- Set `ProcessorType` to `0`
 
 ## Note
 
-- This shared EFI is for macOS Monterey 12.6, and it is release version of OpenCore 0.8.5. If you want to use it for other version of macOS, you need to change the config.plist file.
-
+- `OpenCore` version: `0.8.5`
+- This shared EFI was tested with `MacOS Monterey 12.6`, made with Release version of `OpenCore 0.8.5`
 ## Credits
 
 - [Acidanthera](https://github.com/acidanthera)
