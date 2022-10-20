@@ -250,6 +250,21 @@
 				<key>layout-id</key>
 				<data>CwAAAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AwCRPg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>mz4AAA==</data>
+				<key>device_type</key>
+				<string>Display controller</string>
+				<key>enable-metal</key>
+				<data>AQAAAA==</data>
+				<key>model</key>
+				<string>Intel CoffeeLake-S GT2 [UHD Graphics 630]</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -1021,7 +1036,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 unfairgva=1</string>
+				<string></string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>

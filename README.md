@@ -1,14 +1,19 @@
 # Commet Lake - H510 - RX470 - OpenCore Hackintosh
 
+![Overview](./images/image1.png)
+![Overview](./images/image2.png)
+![Overview](./images/image3.png)
+
 ## Detail specs
 
 | Component   | Model                    |
 | ----------- | ------------------------ |
 | CPU         | Intel Core i3-10100      |
 | Motherboard | ASRock H510M-HVS R2.0    |
-| GPU         | Sapphire RX470 4GB       |
-| RAM         | 2x8GB DDR4 2666MHz       |
-| SSD         | Samsung 860 EVO 250GB    |
+| iGPU        | Intel UHD Graphics 630   |
+| dGPU        | Sapphire RX470 4GB       |
+| RAM         | 2 * 8GB DDR4 2666MHz     |
+| SSD         | 2 * Samsung 860 EVO 250GB|
 | WiFi        | None                     |
 | Audio       | Realtek ALC897           |
 | Ethernet    | Realtek RTL8111          |
@@ -18,18 +23,17 @@
 ## What's working
 
 - [x] Mouse and keyboard
-- [x] Resolution 1920x1080
+- [x] Intel UHD Graphics 630 (just use for computing tasks, not for display)
 - [x] Audio
 - [x] Ethernet
 - [x] USB 2.0 & 3.0
 - [x] Shutdown & Restart
+- [x] Sleep & Wake (The fans are still running)
 - [x] UI for OpenCore
 - [x] iServices (iMessage, Facetime, iCloud)
-- [x] Sleep & Wake (The fans are still running)
 
 ## What's not working
 
-- [ ] Intel UHD Graphics 630 (has problem with H510 chipset)
 - [ ] WiFi & Bluetooth - (not have any WiFi/Bluetooth card)
 - [ ] Handoff (not tested)
 - [ ] Continuity (not tested)
