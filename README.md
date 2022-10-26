@@ -6,19 +6,19 @@
 
 ## Detail specs
 
-| Component   | Model                    |
-| ----------- | ------------------------ |
-| CPU         | Intel Core i3-10100      |
-| Motherboard | ASRock H510M-HVS R2.0    |
-| iGPU        | Intel UHD Graphics 630   |
-| dGPU        | Sapphire RX470 4GB       |
-| RAM         | 2 * 8GB DDR4 2666MHz     |
-| SSD         | 2 * Samsung 860 EVO 250GB|
-| WiFi        | None                     |
-| Audio       | Realtek ALC897           |
-| Ethernet    | Realtek RTL8111          |
-| Monitor     | Xiaomi Monitor 24 inches |
-| OS          | macOS Monterey 12.6      |
+| Component   | Model                      |
+| ----------- | -------------------------- |
+| CPU         | Intel Core i3-10100        |
+| Motherboard | ASRock H510M-HVS R2.0      |
+| iGPU        | Intel UHD Graphics 630     |
+| dGPU        | Sapphire RX470 4GB         |
+| RAM         | 2 \* 8GB DDR4 2666MHz      |
+| SSD         | 2 \* Samsung 860 EVO 250GB |
+| WiFi        | None                       |
+| Audio       | Realtek ALC897             |
+| Ethernet    | Realtek RTL8111            |
+| Monitor     | Xiaomi Monitor 24 inches   |
+| OS          | macOS Ventura 13           |
 
 ## What's working
 
@@ -35,30 +35,25 @@
 ## What's not working
 
 - [ ] WiFi & Bluetooth - (not have any WiFi/Bluetooth card)
-- [ ] Handoff (not tested)
-- [ ] Continuity (not tested)
+- [ ] Handoff (not have Wifi/Bluetooth for testing)
+- [ ] Continuity (not have Wifi/Bluetooth for testing)
 - [ ] AirDrop (not have Wifi/Bluetooth for testing)
-- [ ] Apple Watch Unlock (not tested)
 
 ## BIOS Settings
 
-- [x] Fast Boot
-- [x] VT-d
+- [ ] Fast Boot
+- [x] VT-d (optional)
 - [x] DVMT Pre-Allocated(iGPU Memory): 64M/Auto
-- [x] CFG Lock: Enabled (optional)
-- [x] Secure Boot: Disabled
-- [x] Intel SGX: Disabled
-- [x] Intel Platform Trust: Disabled
-- [x] Above 4G Decoding: Enabled
-- [x] Hyper Threading: Enabled
-- [x] Execute Disable Bit: Disabled
+- [x] CFG Lock (optional)
+- [ ] Secure Boot
+- [ ] Intel SGX
+- [ ] Intel Platform Trust
+- [x] Above 4G Decoding
+- [x] Hyper Threading
 - [x] SATA Mode: AHCI
-- [x] LAN PXE Boot Option ROM: Disabled
 - [x] Storage Boot Option Control: UEFI
 - [x] USB Configuration: XHCI Hand-off
-- [x] Fast Boot: Disabled
-- [x] Windows 10 Features: Other OS
-- [x] Intel Virtualization Technology: Enabled
+- [x] Intel Virtualization Technology
 
 ## OpenCore Settings
 
@@ -69,7 +64,7 @@
 ## Note
 
 - `OpenCore` version: `0.8.5`
-- This shared EFI was tested with `MacOS Monterey 12.6`, made with Release version of `OpenCore 0.8.5`
+- This shared EFI was tested with both `Ventura 13` and `Monterey 12.6`, made with Release version of `OpenCore 0.8.5`
 
 ## Credits
 
