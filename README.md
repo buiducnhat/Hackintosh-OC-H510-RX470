@@ -6,19 +6,19 @@
 
 ## Detail specs
 
-| Component   | Model                      |
-| ----------- | -------------------------- |
-| CPU         | Intel Core i3-10100        |
-| Motherboard | ASRock H510M-HVS R2.0      |
-| iGPU        | Intel UHD Graphics 630     |
-| dGPU        | Sapphire RX470 4GB         |
-| RAM         | 2 \* 8GB DDR4 2666MHz      |
-| SSD         | 2 \* Samsung 860 EVO 250GB |
-| WiFi        | None                       |
-| Audio       | Realtek ALC897             |
-| Ethernet    | Realtek RTL8111            |
-| Monitor     | Xiaomi Monitor 24 inches   |
-| OS          | macOS Ventura 13           |
+| Component      | Model                      |
+| ---------------| -------------------------- |
+| CPU            | Intel Core i3-10100        |
+| Motherboard    | ASRock H510M-HVS R2.0      |
+| iGPU           | Intel UHD Graphics 630     |
+| dGPU           | Sapphire RX470 4GB         |
+| RAM            | 2 \* 8GB DDR4 2666MHz      |
+| SSD            | 2 \* Samsung 860 EVO 250GB |
+| WiFi/Bluetooth | BCM94360CS2                |
+| Audio          | Realtek ALC897             |
+| Ethernet       | Realtek RTL8111            |
+| Monitor        | Xiaomi Monitor 24 inches   |
+| OS             | macOS Ventura 13           |
 
 ## What's working
 
@@ -31,13 +31,11 @@
 - [x] Sleep & Wake (The fans are still running)
 - [x] UI for OpenCore
 - [x] iServices (iMessage, Facetime, iCloud)
+- [x] AirDrop/Handoff/Continuity
 
 ## What's not working
 
-- [ ] WiFi & Bluetooth - (not have any WiFi/Bluetooth card)
-- [ ] Handoff (not have Wifi/Bluetooth for testing)
-- [ ] Continuity (not have Wifi/Bluetooth for testing)
-- [ ] AirDrop (not have Wifi/Bluetooth for testing)
+Currently all things are working fine
 
 ## BIOS Settings
 
